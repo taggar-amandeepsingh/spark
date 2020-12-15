@@ -1,6 +1,8 @@
 // Databricks notebook source
 // /FileStore/tables/FriendsData.csv
 
+// https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/816254878439192/1681586854130797/6894355921072367/latest.html
+
 val friendsData=sc.textFile("/FileStore/tables/FriendsData.csv")
 val removeHeader = friendsData.filter( x=> !x.contains("name"))
 

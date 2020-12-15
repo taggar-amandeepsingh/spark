@@ -1,6 +1,8 @@
 // Databricks notebook source
 // /FileStore/tables/Property_data.csv
 
+// https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/816254878439192/1681586854130790/6894355921072367/latest.html
+
 val propData=sc.textFile("/FileStore/tables/Property_data.csv")
 
 // COMMAND ----------
